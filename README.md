@@ -43,7 +43,7 @@ Start all services:
 docker-compose up -d --build
 ```
 
-🧪 API Testing
+API Testing
 
 1. Test Flask Mock Server
 ```bash
