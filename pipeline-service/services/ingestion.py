@@ -80,3 +80,4 @@ def ingest_data(db: Session) -> int:
         logger.error(f"Database/Ingestion Engine Error: {str(e)}")
         db.rollback()
         raise e
+
